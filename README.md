@@ -1,0 +1,1 @@
+postgresql-tables-comparator

@@ -1,0 +1,41 @@
+{
+    "connection" : {
+        "dbname": "postgres",
+        "host": "127.0.0.1",
+        "user": "postgres",
+        "password": "mysecretpassword",
+        "port": 5432
+    },
+
+    "tablePairs": [
+        {
+            "oldTable": {
+                "schema": "schema_old",
+                "tableName": "table_old"
+            },
+
+            "newTable": {
+                "schema": "schema_new",
+                "tableName": "table_new"
+            },
+
+            "filterColumn": "filter_column",
+            "filterDateValue": "2020-02-21 18:10:25-07"
+        },
+
+        {
+            "oldTable": {
+                "schema": "schema_old_2",
+                "tableName": "table_old_2"
+            },
+
+            "newTable": {
+                "schema": "schema_new_2",
+                "tableName" : "table_new_2"
+            },
+
+            "filterColumn": "filter_column",
+            "filterDateValue": "2021-02-22"
+        }
+    ]
+}
